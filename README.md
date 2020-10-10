@@ -1,6 +1,6 @@
 # Edushare
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.2.
+Edushare is an interactive platform that brings together learners and teachers from different institutions with the aim of creating a knowledge sharing hub for them. I
 
 ## Development server
 
