@@ -1,4 +1,4 @@
-# Edushare
+# Anthony
 
 Edushare is an interactive platform that brings together learners and teachers from different institutions with the aim of creating a knowledge sharing hub for them. I
 
