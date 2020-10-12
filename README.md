@@ -2,7 +2,7 @@
 
 Edushare is an interactive platform that brings together learners and teachers from different institutions with the aim of creating a knowledge sharing hub for them. I
 
-## Development server
+## Faith
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 

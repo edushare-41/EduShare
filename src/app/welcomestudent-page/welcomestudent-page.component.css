@@ -1,0 +1,57 @@
+main{
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+
+  background: #E5EAEE;
+  border-radius: 33px;
+}
+
+/*logo*/
+.logo{
+  position: absolute;
+  width: 197px;
+  height: 53px;
+  left: 82px;
+  top: 117px;
+
+  font-family: Quattrocento Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 53px;
+
+  color: #706B69;
+}
+
+.message{
+  position: absolute;
+  width: 694px;
+  height: 223px;
+  left: 358px;
+  top: 229px;
+
+  font-family: Quattrocento Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 97px;
+  line-height: 107px;
+
+  color: #7D7B79;
+}
+
+.direction{
+  position: absolute;
+  width: 586px;
+  height: 122px;
+  left: 358px;
+  top: 501px;
+
+  font-family: Quattrocento Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 53px;
+
+  color: #000000;
+}
