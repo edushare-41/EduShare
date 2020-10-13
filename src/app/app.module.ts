@@ -1,28 +1,17 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-import { AppRoutingModule } from './app-routing.module';
+import { AngularFireModule } from '@angular/fire';
 import { AppComponent } from './app.component';
-import { QuizPageComponent } from './quiz-page/quiz-page.component';
-import { SearchPageComponent } from './search-page/search-page.component';
-import { WelcomestudentPageComponent } from './welcomestudent-page/welcomestudent-page.component';
-import { StudentcontentPageComponent } from './studentcontent-page/studentcontent-page.component';
-
+import { environment } from 'src/environments/environment';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    QuizPageComponent,
-    SearchPageComponent,
-    WelcomestudentPageComponent,
-    StudentcontentPageComponent
-
-  ],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AngularFireModule.initializeApp(environment.firebase)
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+
+export class AppModule {}
