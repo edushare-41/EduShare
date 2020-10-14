@@ -17,4 +17,4 @@ skip_files:
   - ^(.*/)?.*\.json$
   - ^(.*/)?.*\.md$
   - ^(.*/)?.*\.yaml$
-  - ^LICENSE
+  - ^LICENE
