@@ -1,8 +1,6 @@
 steps:
-
-  # Install node packages
-  - name: 'gcr.io/cloud-builders/npm'
-    args: [ 'install' ]
+- name: gcr.io/cloud-builders/docker
+  args: ['build', '-t', 'THE_IMAGE', '--network=cloudbuild', '.']
 
   # Build productive files
   - name: 'gcr.io/cloud-builders/npm'
