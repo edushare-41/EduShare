@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DowloadNotesComponent } from './dowload-notes/dowload-notes.component';
+import { UploadNotesComponent } from './upload-notes/upload-notes.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DowloadNotesComponent
+    DowloadNotesComponent,
+    UploadNotesComponent
   ],
   imports: [
     BrowserModule,
