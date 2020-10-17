@@ -1,8 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-import { AppRoutingModule } from './app-routing.module';
+import { AngularFireModule } from '@angular/fire';
 import { AppComponent } from './app.component';
+<<<<<<< HEAD
 import { DowloadNotesComponent } from './dowload-notes/dowload-notes.component';
 import { TeacherContentPageComponent } from './teacher-content-page/teacher-content-page.component';
 import { UploadPageComponent } from './upload-page/upload-page.component';
@@ -16,11 +16,18 @@ import { TeacherWelcomePageComponent } from './teacher-welcome-page/teacher-welc
     UploadPageComponent,
     TeacherWelcomePageComponent
   ],
+=======
+import { environment } from 'src/environments/environment';
+
+@NgModule({
+  declarations: [AppComponent],
+>>>>>>> 09a55391c62464337cd06cfd7fc24c3ce75f871f
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AngularFireModule.initializeApp(environment.firebase)
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+
+export class AppModule {}

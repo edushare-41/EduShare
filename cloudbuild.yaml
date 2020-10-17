@@ -1,0 +1,24 @@
+steps:
+
+  # Install node packages
+  - name: 'gcr.io/cloud-builders/npm'
+    args: [ 'install' ]
+
+  # Build productive files
+  - name: 'gcr.io/cloud-builders/npm'
+    args: [ 'run', 'build', '--prod' ]
+  
+  #Docker
+  - name: "gcr.io/cloud-builders/docker"
+  args:
+  - build
+  - "--tag=gcr.io/$PROJECT_ID/quickstart-image"
+  - "--file=./path/to/YourDockerFile"
+  - .
+...
+images:
+- "gcr.io/$PROJECT_ID/quickstart-image"
+
+  # Deploy to google cloud app egnine
+  - name: 'gcr.io/cloud-builders/gcloud'
+    args: ['app', 'deploy', '--version=prod']

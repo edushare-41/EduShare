@@ -1,0 +1,288 @@
+main{
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+
+  background: #E5EAEE;
+  border-radius: 33px;
+}
+
+/*line 2*/
+.line2{
+  position: absolute;
+  width: 207px;
+  height: 0px;
+  left: 1147px;
+  top: 190px;
+
+  border: 5px solid #E4DBCF;
+}
+
+/*logo*/
+.logo{
+  position: absolute;
+  width: 197px;
+  height: 53px;
+  left: 82px;
+  top: 117px;
+
+  font-family: Quattrocento Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 53px;
+
+  color: #706B69;
+}
+
+.CalculusQuiz{
+  position: absolute;
+  width: 292px;
+  height: 55px;
+  left: 433px;
+  top: 240px;
+
+  font-family: Quattrocento Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 55px;
+
+  color: #7D7B79;
+}
+
+.search{
+  position: absolute;
+  width: 190px;
+  height: 50px;
+  left: 1109px;
+  top: 127px;
+
+  font-family: Quattrocento Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 37px;
+  line-height: 41px;
+  text-align: center;
+
+  color: #8F8F8F;
+}
+
+.select{
+  position: absolute;
+  width: 400px;
+  height: 44px;
+  left: 438px;
+  top: 306px;
+
+  font-family: Quattrocento Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 44px;
+
+  color: #706B69;
+}
+
+.subjects{
+  position: absolute;
+  width: 181px;
+  height: 34px;
+  left: 81px;
+  top: 400px;
+
+  font-family: Quattrocento Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 31px;
+  line-height: 34px;
+
+  color: #706B69;
+}
+
+.math{
+  position: absolute;
+  width: 68px;
+  height: 14px;
+  left: 81px;
+  top: 466px;
+
+  font-family: Quattrocento Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 25px;
+
+  color: #7D7B79;
+}
+
+.chemistry{
+  position: absolute;
+  width: 137px;
+  height: 16px;
+  left: 81px;
+  top: 505px;
+
+  font-family: Quattrocento Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 25px;
+
+  color: #7D7B79;
+}
+
+.physics{
+  position: absolute;
+  width: 99px;
+  height: 14px;
+  left: 81px;
+  top: 546px;
+
+  font-family: Quattrocento Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 25px;
+
+  color: #7D7B79;
+}
+
+.quiz{
+  position: absolute;
+  width: 170px;
+  height: 34px;
+  left: 74px;
+  top: 631px;
+
+  font-family: Quattrocento Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 31px;
+  line-height: 34px;
+
+  color: #706B69;
+}
+
+.quizes-done{
+  position: absolute;
+  width: 181px;
+  height: 27px;
+  left: 81px;
+  top: 690px;
+
+  font-family: Quattrocento Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 25px;
+
+  color: #7D7B79;
+}
+
+.question{
+  position: absolute;
+width: 764px;
+height: 64px;
+left: 438px;
+top: 434px;
+
+font-family: Inria Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 53px;
+line-height: 64px;
+/* identical to box height */
+
+
+color: #706B69;
+}
+
+/*elipse*/
+.elipse3{
+  position: absolute;
+  width: 42px;
+  height: 37px;
+  left: 448px;
+  top: 539px;
+
+  background: #FFFDFB;
+  border: 5px solid #706B69;
+  box-sizing: border-box;
+
+}
+
+.elipse4{
+  position: absolute;
+  width: 42px;
+  height: 37px;
+  left: 448px;
+  top: 620px;
+
+  background: #FFFDFB;
+  border: 5px solid #706B69;
+  box-sizing: border-box;
+
+}
+
+.elipse5{
+  position: absolute;
+  width: 42px;
+  height: 37px;
+  left: 448px;
+  top: 698px;
+
+  background: #FFFDFB;
+  border: 5px solid #706B69;
+  box-sizing: border-box;
+}
+
+.choice1{
+  position: absolute;
+  width: 150px;
+  height: 37px;
+  left: 552px;
+  top: 480px;;
+
+  font-family: Inria Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 46px;
+  line-height: 55px;
+
+  color: #706B69;
+
+}
+.choice2{
+  position: absolute;
+  width: 150px;
+  height: 37px;
+  left: 552px;
+  top: 560px;
+
+  font-family: Inria Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 46px;
+  line-height: 55px;
+
+  color: #706B69;
+
+}
+
+.choice3{
+  position: absolute;
+  width: 150px;
+  height: 37px;
+  left: 552px;
+  top: 640px;
+
+  font-family: Inria Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 46px;
+  line-height: 55px;
+
+  color: #706B69;
+
+}
