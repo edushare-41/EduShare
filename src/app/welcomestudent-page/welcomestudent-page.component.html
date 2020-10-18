@@ -1,5 +1,26 @@
-<main>
-  <p class="logo">EduShare</p>
-  <p class="message">Welcome back Harry,</p>
-  <p class="direction">Check in with the content your school has to offer</p>
+<main class="container">
+
+  <div class="row logo">
+    <p class="col">EduShare</p>
+  </div>
+
+    <div class="col">
+
+      <div class="message">
+        <p>Welcome back,{{studentInfo?.name}}</p>
+      </div>
+
+      <div class="direction">
+        <p>Check in with the content your school has to offer</p>
+      </div>
+
+      <div type="submit" class="button1">
+        <a routerLink="/schoolcontent" routerLinkActive="active">Go to my school’s content</a>
+      </div>
+
+      <div type="submit" class="button2">
+        <a routerLink="" routerLinkActive="active">View everything else</a>
+      </div>
+
+    </div>
 </main>

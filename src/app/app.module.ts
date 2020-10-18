@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpModule } from '@angular/http';
 
+import {EdushareService} from './edushare.service';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { QuizPageComponent } from './quiz-page/quiz-page.component';
@@ -9,20 +11,27 @@ import { WelcomestudentPageComponent } from './welcomestudent-page/welcomestuden
 import { StudentcontentPageComponent } from './studentcontent-page/studentcontent-page.component';
 
 
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
     QuizPageComponent,
     SearchPageComponent,
     WelcomestudentPageComponent,
-    StudentcontentPageComponent
+    StudentcontentPageComponent,
+
 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpModule
+
   ],
-  providers: [],
+  providers: [ EdushareService],
   bootstrap: [AppComponent]
+
 })
 export class AppModule { }

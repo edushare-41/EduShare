@@ -3,11 +3,14 @@
   <hr class="line2">
   <p  class="search">Search</p>
   <p class="subjects">Your Subjects</p>
-  <p class="math">Math</p>
-  <p class="chemistry">Chemistry</p>
-  <p class="physics">Physics</p>
+  <div>
+    <p *ngFor="let subject of studentInfo?.subjects" class="subjectList">{{subject.subjectname}}</p>
+  </div>
   <p class="quiz">Your Quizes</p>
   <p class="quizes-done">No quizes sat yet</p>
   <p class="message">What’s New:</p>
   <p class="message2">Your teachers have uploaded new notes in the Math and Chemistry classes</p>
+  <button class="button1">Show me what's new</button>
+  <button class="button2"><a routerLink="/quiz-page" routerLinkActive="active">Sit a quiz</a></button>
+  <button class="button3">Upload Notes</button>
 </main>

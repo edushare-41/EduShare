@@ -179,3 +179,43 @@ main{
   color: #000000;
 
 }
+
+.button1{
+  position: absolute;
+  width: 433px;
+  height: 72.7px;
+  left: 480px;
+  top: 672px;
+
+  background: #FFE5DF;
+  border: 2.5px solid #E4DBCF;
+  box-sizing: border-box;
+  border-radius: 47px;
+}
+
+.button2{
+  position: absolute;
+  width: 357px;
+  height: 72.7px;
+  left: 480px;
+  top: 792px;
+
+  background: #DEDEDE;
+  border: 0.5px solid #E4DBCF;
+  box-sizing: border-box;
+  border-radius: 47px;
+}
+
+.button3{
+  position: absolute;
+  width: 357px;
+  height: 72.7px;
+  left: 913px;
+  top: 792px;
+
+  background: #DEDEDE;
+  border: 0.5px solid #E4DBCF;
+  box-sizing: border-box;
+  border-radius: 47px;
+}
+

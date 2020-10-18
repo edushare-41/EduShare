@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import {EdushareService} from '../edushare.service';
+
+import { Student } from '../student';
 
 @Component({
   selector: 'app-welcomestudent-page',
@@ -6,10 +9,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./welcomestudent-page.component.css']
 })
 export class WelcomestudentPageComponent implements OnInit {
+  studentInfo:Student;
 
-  constructor() { }
+  constructor(private _edushareService:EdushareService) { }
 
   ngOnInit(): void {
+    this._edushareService.getStudent(1).subscribe(response => this.studentInfo = response);
   }
 
 }

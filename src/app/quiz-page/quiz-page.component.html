@@ -6,9 +6,9 @@
   <p  class="search">Search</p>
   <p class="select">Select the best answer</p>
   <p class="subjects">Your Subjects</p>
-  <p class="math">Math</p>
-  <p class="chemistry">Chemistry</p>
-  <p class="physics">Physics</p>
+  <div>
+    <p *ngFor="let subject of studentInfo?.subjects" class="subjectList">{{subject.subjectname}}</p>
+  </div>
   <p class="quiz">Your Quizes</p>
   <p class="quizes-done">No quizes sat yet</p>
   <p class="question">Differentiate x5 with respect to x.</p>
@@ -24,6 +24,8 @@
   <p class="choice1">y = x5</p>
   <p class="choice2">y = 4x5</p>
   <p class="choice3">y = 5x4</p>
+  <button>Quit</button>
+  <button></button>
 
 
 </main>

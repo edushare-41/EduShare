@@ -187,4 +187,30 @@ main{
   color: #C9C9C9;
 }
 
+.button2{
+  position: absolute;
+  width: 357px;
+  height: 72.7px;
+  left: 480px;
+  top: 792px;
+
+  background: #DEDEDE;
+  border: 0.5px solid #E4DBCF;
+  box-sizing: border-box;
+  border-radius: 47px;
+}
+
+.button3{
+  position: absolute;
+  width: 357px;
+  height: 72.7px;
+  left: 913px;
+  top: 792px;
+
+  background: #DEDEDE;
+  border: 0.5px solid #E4DBCF;
+  box-sizing: border-box;
+  border-radius: 47px;
+}
+
 
