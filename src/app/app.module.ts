@@ -2,11 +2,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AngularFireModule } from '@angular/fire';
 import { AppComponent } from './app.component';
-<<<<<<< HEAD
 import { DowloadNotesComponent } from './dowload-notes/dowload-notes.component';
 import { TeacherContentPageComponent } from './teacher-content-page/teacher-content-page.component';
 import { UploadPageComponent } from './upload-page/upload-page.component';
 import { TeacherWelcomePageComponent } from './teacher-welcome-page/teacher-welcome-page.component';
+import { SearchComponent } from './curious-mind/search/search.component';
+import { SearchResultsComponent } from './curious-mind/search-results/search-results.component';
+import { environment } from 'src/environments/environment';
+import { UploadNotesComponent } from './curious-mind/upload-notes/upload-notes.component';
 
 @NgModule({
   declarations: [
@@ -14,14 +17,12 @@ import { TeacherWelcomePageComponent } from './teacher-welcome-page/teacher-welc
     DowloadNotesComponent,
     TeacherContentPageComponent,
     UploadPageComponent,
-    TeacherWelcomePageComponent
+    TeacherWelcomePageComponent,
+    SearchComponent,
+    SearchResultsComponent,
+    UploadNotesComponent
   ],
-=======
-import { environment } from 'src/environments/environment';
 
-@NgModule({
-  declarations: [AppComponent],
->>>>>>> 09a55391c62464337cd06cfd7fc24c3ce75f871f
   imports: [
     BrowserModule,
     AngularFireModule.initializeApp(environment.firebase)
