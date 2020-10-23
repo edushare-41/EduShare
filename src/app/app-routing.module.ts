@@ -5,7 +5,7 @@ import { QuizPageComponent } from './quiz-page/quiz-page.component';
 import { SearchPageComponent } from './search-page/search-page.component';
 import { WelcomestudentPageComponent } from './welcomestudent-page/welcomestudent-page.component';
 import { StudentcontentPageComponent } from './studentcontent-page/studentcontent-page.component';
-
+import {UploadnotesComponent} from './uploadnotes/uploadnotes.component';
 
 const appRoutes:Routes =[
   {
@@ -23,6 +23,10 @@ const appRoutes:Routes =[
   {
     path:"welcomestudent-page",
     component:WelcomestudentPageComponent
+  },
+  {
+    path:"uploadnotes",
+    component:UploadnotesComponent
   },
 
   {

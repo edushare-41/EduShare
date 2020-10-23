@@ -1,0 +1,47 @@
+  [
+  {
+    "label": "What is 2 + 3?",
+    "choices": [
+      {"value": "5", "correct": true},
+      {"value": "15", "correct": false},
+      {"value": "3", "correct": false},
+      {"value": "-.5", "correct": false}
+    ]
+  },
+  {
+    "label": "What is 3 - 9?",
+    "choices": [
+      {"value": "3", "correct": false},
+      {"value": "3.0", "correct": true},
+      {"value": "-3", "correct": false},
+      {"value": "3.14", "correct": false}
+    ]
+  },
+  {
+    "label": "What is 2 x 24?",
+    "choices": [
+      {"value": "-48", "correct": false},
+      {"value": "48.0", "correct": false},
+      {"value": "-.48", "correct": false},
+      {"value": "48", "correct": true}
+    ]
+  },
+  {
+    "label": "What is 12 / 4?",
+    "choices": [
+      {"value": "-3", "correct": false},
+      {"value": "3", "correct": true},
+      {"value": "3.0", "correct": false},
+      {"value": "-.3", "correct": false}
+    ]
+  },
+  {
+    "label": "What is 8 / 10?",
+    "choices": [
+      {"value": ".008", "correct": false},
+      {"value": "-0.8", "correct": false},
+      {"value": "0.8", "correct": true},
+      {"value": "1.25", "correct": false}
+    ]
+  }
+]
